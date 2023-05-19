@@ -11,6 +11,7 @@ public class Otherquiz {
 		int num1,num2;
 		start = input.next();
 		
+		
 		if(start.equals("Y"))
 		{ //65~122 아스키
 			System.out.print("첫번째 65~122까지의 숫자를 입력하세요.: ");
