@@ -23,6 +23,7 @@ public class OtherQuiz {
 		
 		try {
 			input = sc.nextInt();
+			if(input>5) continue;
 		}
 		catch(InputMismatchException e){
 			System.out.println("잘못 입력\n\n");
@@ -82,7 +83,6 @@ public class OtherQuiz {
 		case 5:
 			System.out.println("종료합니다.");
 			willContinue = false;
-			break;
 		}
 	}
 	sc.close();
